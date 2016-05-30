@@ -1,0 +1,83 @@
+2016-05-30 12:20:55,120 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:21:29,075 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:21:29,075 ERROR Unable to write to stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6700.log for appender A1
+2016-05-30 12:21:29,076 ERROR An exception occurred processing Appender A1 org.apache.logging.log4j.core.appender.AppenderLoggingException: Error flushing stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6700.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:159)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:112)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:88)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:99)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:430)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:409)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:112)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:738)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:708)
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:183)
+	at backtype.storm.messaging.netty.Client.close(Client.java:363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313)
+	at backtype.storm.daemon.worker$fn__7098$exec_fn__1236__auto__$reify__7100$shutdown_STAR___7118.invoke(worker.clj:462)
+	at backtype.storm.daemon.worker$fn__7098$exec_fn__1236__auto__$reify$reify__7144.shutdown(worker.clj:500)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313)
+	at backtype.storm.daemon.worker$_main$fn__7192.invoke(worker.clj:543)
+	at backtype.storm.util$add_shutdown_hook_with_force_kill_in_1_sec$fn__482.invoke(util.clj:456)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:156)
+	... 29 more
+
+2016-05-30 12:21:29,082 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:21:29,151 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:23:07,197 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:28:06,007 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:28:29,041 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:28:29,044 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:28:29,045 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:28:29,047 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:28:45,151 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:28:45,157 ERROR Unable to write to stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6700.log for appender A1
+2016-05-30 12:28:45,158 ERROR An exception occurred processing Appender A1 org.apache.logging.log4j.core.appender.AppenderLoggingException: Error flushing stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6700.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:159)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:112)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:88)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:99)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:430)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:409)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:112)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:727)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:716)
+	at org.apache.logging.slf4j.Log4jLogger.error(Log4jLogger.java:318)
+	at org.apache.storm.shade.clojure.tools.logging$eval1$fn__7.invoke(NO_SOURCE_FILE:0)
+	at org.apache.storm.shade.clojure.tools.logging.impl$fn__28$G__8__39.invoke(impl.clj:16)
+	at org.apache.storm.shade.clojure.tools.logging$log_STAR_.invoke(logging.clj:59)
+	at backtype.storm.util$async_loop$fn__545.invoke(util.clj:488)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:156)
+	... 16 more
+
+2016-05-30 12:28:45,165 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:31:45,380 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:34:26,143 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:34:26,249 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:34:56,784 FATAL Unable to register shutdown hook because JVM is shutting down.

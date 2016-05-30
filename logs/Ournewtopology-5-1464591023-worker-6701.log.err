@@ -1,0 +1,4 @@
+2016-05-30 12:21:13,378 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:24:18,514 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:25:09,822 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:29:22,316 FATAL Unable to register shutdown hook because JVM is shutting down.

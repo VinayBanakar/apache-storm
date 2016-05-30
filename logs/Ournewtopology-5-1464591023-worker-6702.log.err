@@ -1,0 +1,38 @@
+2016-05-30 12:22:09,827 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:22:25,767 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:24:53,336 ERROR Unable to write to stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6702.log for appender A1
+2016-05-30 12:24:53,337 ERROR An exception occurred processing Appender A1 org.apache.logging.log4j.core.appender.AppenderLoggingException: Error flushing stream /home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/logs/Ournewtopology-5-1464591023-worker-6702.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:159)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:112)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:88)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:99)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:430)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:409)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:112)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:727)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:716)
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:198)
+	at org.apache.storm.shade.clojure.tools.logging$eval1$fn__7.invoke(NO_SOURCE_FILE:0)
+	at org.apache.storm.shade.clojure.tools.logging.impl$fn__28$G__8__39.invoke(impl.clj:16)
+	at org.apache.storm.shade.clojure.tools.logging$log_STAR_.invoke(logging.clj:59)
+	at backtype.storm.daemon.executor$mk_task_receiver$fn__5615.invoke(executor.clj:434)
+	at backtype.storm.disruptor$clojure_handler$reify__5189.onEvent(disruptor.clj:58)
+	at backtype.storm.utils.DisruptorQueue.consumeBatchToCursor(DisruptorQueue.java:132)
+	at backtype.storm.utils.DisruptorQueue.consumeBatchWhenAvailable(DisruptorQueue.java:106)
+	at backtype.storm.disruptor$consume_batch_when_available.invoke(disruptor.clj:80)
+	at backtype.storm.daemon.executor$fn__5694$fn__5707$fn__5758.invoke(executor.clj:819)
+	at backtype.storm.util$async_loop$fn__545.invoke(util.clj:479)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:156)
+	... 22 more
+
+2016-05-30 12:24:53,397 ERROR Attempted to append to non-started appender syslog
+2016-05-30 12:30:46,537 FATAL Unable to register shutdown hook because JVM is shutting down.
+2016-05-30 12:35:36,977 FATAL Unable to register shutdown hook because JVM is shutting down.

@@ -1,0 +1,39 @@
+2016-04-07 12:38:53.506 b.s.u.Utils [INFO] Using defaults.yaml from resources
+2016-04-07 12:38:53.581 b.s.u.Utils [INFO] Using storm.yaml from resources
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:host.name=hubatrix
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.version=1.7.0_95
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.class.path=/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-core-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/slf4j-api-1.7.7.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-over-slf4j-1.6.6.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/asm-4.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/reflectasm-1.07-shaded.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/minlog-1.2.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/kryo-2.21.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/disruptor-2.10.4.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/servlet-api-2.5.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/hadoop-auth-2.4.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-api-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-slf4j-impl-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/clojure-1.6.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/storm-core-0.10.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/conf
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.library.path=/usr/local
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2016-04-07 12:38:55.113 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:os.version=4.2.0-23-generic
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:user.name=hubatrix
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:user.home=/home/hubatrix
+2016-04-07 12:38:55.114 o.a.s.s.o.a.z.ZooKeeper [INFO] Client environment:user.dir=/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/bin
+2016-04-07 12:38:55.120 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:host.name=hubatrix
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.7.0_95
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-core-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/slf4j-api-1.7.7.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-over-slf4j-1.6.6.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/asm-4.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/reflectasm-1.07-shaded.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/minlog-1.2.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/kryo-2.21.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/disruptor-2.10.4.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/servlet-api-2.5.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/hadoop-auth-2.4.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-api-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/log4j-slf4j-impl-2.1.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/clojure-1.6.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/lib/storm-core-0.10.0.jar:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0:/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/conf
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=/usr/local
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2016-04-07 12:38:55.121 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2016-04-07 12:38:55.122 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:os.version=4.2.0-23-generic
+2016-04-07 12:38:55.122 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:user.name=hubatrix
+2016-04-07 12:38:55.122 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:user.home=/home/hubatrix
+2016-04-07 12:38:55.122 o.a.s.s.o.a.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/hubatrix/ccbd-work/storm2/apache-storm-0.10.0/bin
+2016-04-07 12:38:55.301 b.s.u.Utils [INFO] Using defaults.yaml from resources
+2016-04-07 12:38:55.320 b.s.u.Utils [INFO] Using storm.yaml from resources
+2016-04-07 12:38:55.361 b.s.u.Utils [INFO] Using defaults.yaml from resources
+2016-04-07 12:38:55.401 b.s.u.Utils [INFO] Using storm.yaml from resources
+2016-04-07 12:38:55.501 o.a.s.s.o.e.j.s.Server [INFO] jetty-7.x.y-SNAPSHOT
+2016-04-07 12:38:55.528 o.a.s.s.o.e.j.s.h.ContextHandler [INFO] started o.a.s.s.o.e.j.s.ServletContextHandler{/,null}
+2016-04-07 12:38:55.550 o.a.s.s.o.e.j.s.AbstractConnector [INFO] Started SelectChannelConnector@0.0.0.0:8000

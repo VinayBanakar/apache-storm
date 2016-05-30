@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: storm-starter
+Implementation-Version: 0.10.0
+Archiver-Version: Plexus Archiver
+Built-By: tgoetz
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: storm-starter
+Implementation-Vendor-Id: org.apache.storm
+Created-By: Apache Maven 3.2.1
+Build-Jdk: 1.8.0_45
+Specification-Version: 0.10.0
+Implementation-Vendor: The Apache Software Foundation
+
