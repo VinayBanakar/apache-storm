@@ -10,10 +10,15 @@ then make sure zookeper is started
 sudo sh zkServer.sh start 
 
 then storm (sudo)
+
 ./storm nimbus
+
 ./storm supervisor
+
 ./storm ui
+
 to run word count toplogy :
+
 ./storm jar ~/ccbd-work/storm2/apache-storm-0.10.0/examples/storm-starter/storm-starter-topologies-0.10.0.jar storm.starter.WordCountTopology WordCount -c nimbus.host=localhost
 
 to kill wordcount :
